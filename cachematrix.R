@@ -1,6 +1,6 @@
 ## This pair of functions computes the inverse of an inversible matrix and keep the result cached 
 ## to save unnecessary computational demand as long as the matrix does not change  
-##
+## 
 ## How to Use:
 ## 1 - Call the cache support function makeVector() passing an inversible matrix as parameter,
 ## stores the result in a variable to later access :
@@ -59,3 +59,4 @@ cacheSolve <- function(x, ...) {
         x$setinverse(m)
         m
 }
+
