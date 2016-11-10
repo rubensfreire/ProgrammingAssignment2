@@ -1,5 +1,5 @@
+#######################################################################################################
 ## This pair of functions computes the inverse of an inversible matrix and keep the result cached 
-<<<<<<< HEAD
 ## to save unnecessary computational demand as long as the matrix does not change  
 ## 
 ## How to Use:
@@ -13,9 +13,9 @@
 ## Results:     
 ## - First cacheSolve() call, it computes the inverse and return results
 ## - From Second call to cacheSolve() on, it retrives the result from the cached data
-=======
+#######################################################################################################
 
->>>>>>> 4ff3718238396d71f6ddc3eb08828b6932ea7976
+
 
 #######################################################################################################
 ### makeCacheMatrix: Creates a vector to access matrix cache functions set, get, setinverse, getinverse
